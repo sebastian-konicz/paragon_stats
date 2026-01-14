@@ -1,0 +1,160 @@
+{
+    "protoVersion": "000",
+    "IDZ": "c=f8b59014baf64edc8c025ad5a6934fff|g={bbb0834c-2a86-426b-ac9d-543b2dca8ffb}|s=4129|p=10|t=8457",
+    "deviceType": 2,
+    "printed": false,
+    "data": "eyJhbGciOiJSUzI1NiIsIng1YyI6WyJNSUlGUVRDQ0F5bWdBd0lCQWdJRERyeVJNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1JR2JNUXN3Q1FZRFZRUUdFd0pRVERFVU1CSUdBMVVFQ0F3TFRXRjZiM2RwWldOcmFXVXhFVEFQQmdOVkJBY01DRmRoY25ONllYZGhNU1F3SWdZRFZRUUxEQnREWlc1MGNuVnRJRU5sY25SNVptbHJZV05xYVNCbExVdGhjM2t4R3pBWkJnTlZCQW9NRWxCdmMyNWxkQ0JRYjJ4emEyRWdVeTVCTGpFZ01CNEdBMVVFQXd3WFVFOVRUa1ZVSUdVdFMyRnplU0JTYjI5MElFTkJJREV3SWhnUE1qQXlNekV5TURjeE16TTRNemxhR0E4eU1ETXpNVEl3TmpFek16Z3pPVm93T3pFTE1Ba0dBMVVFQmhNQ1VFd3hGakFVQmdOVkJBTVREVVZCV2pJeU1ESXhOakU1TlRjeEZEQVNCZ05WQkFvVEMxQnZjMjVsZENCVExrRXVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXFzbU1ZaW5zcTF2c2pwVHU4TjZDemUwUzEwb1JvL25SYWFOWXZERnc0MFZFZk9sa0E3TmkwcFpMRHE2eXJJSmJTcUxGTHgzVnZ5LzFMN2YwTHVTQWVFNEhBajgrM3orQ1NzRGtTZXdqdlY5ZEFXZXlhZCs4NS85S21Gd3FwYkNnd0RJL0ZsN1Z1QkJqdEVtM3kvcXNSTDlXeC9yZzdReERDWHdESkt5TXNIdTRYcmZGK2pEL1lzQlljTVRXcTh0Z3hBWjJheEhQZzZLWTVmclhPT1pBZlA4T1ZRbDhIVnJvNjlua3NZOGljUFJOQXRYRHA2ZUlDUnJialVTY1JxaUZhWGZUaCtFVVZKVEZqQTRaR281S1Vmb3FIM3pxMGF5NHd3aWpXVmF1b0xkZjZFbU5JQzlsS29DRDg4a2ZMMmR2eS8vem1abkFpZFdjLzNNSmdtZCtKUUlEQVFBQm80SG9NSUhsTUF3R0ExVWRFd0VCL3dRQ01BQXdIUVlEVlIwT0JCWUVGSWhnNU52SzkyYmFIRTd2K1F4dVZUeUFZVWVKTUI4R0ExVWRJd1FZTUJhQUZFNElhYlJWR0FHTFJkSGlwZVNaeldHQmo0MUpNQTRHQTFVZER3RUIvd1FFQXdJRjREQTFCZ05WSFI4RUxqQXNNQ3FnS0tBbWhpUm9kSFJ3T2k4dlpXc3VjRzl6Ym1WMExtTnZiUzV3YkM5amNtd3ZjbU5oTVM1amNtd3dUZ1lEVlIwZ0JFY3dSVEJEQmdzckJnRUVBWU9mYmdFQkFUQTBNRElHQ0NzR0FRVUZCd0lCRmlab2RIUndjem92TDJWckxuQnZjMjVsZEM1amIyMHVjR3d2WTNCekwzSmpZVEV1YUhSdGJEQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FnRUF1Z0F3UnhVRW1DZnhSWWk4Z01SelRwT1hXbVIxUnVjZW1ON3JOZDRyM0tNSWJ6V1cvNDBSV1ZQY3pHZnE4ZUo1UVBydzlqNlVBOFZPK3Y2Q3o4Yll4VmRRWlpCbHVmSCtqQTNQdk00UlRIbFdPbjF0OWp4bDV2aEo1azNvRVlaTlo4WHhTNmRCOTF5QldrZFZwUW1oSzRMQjl2NjZhYXI0L1lTZDM0ZnRCcXArSytub3lxRVZMcTVDbXd5WVRtaVI1VVJGUmhRNTZOVHFPckZZRVdhdkZlQXV4Z1NmMThnUzFxSURjbTF1a2JrdkZGb1B5WGRLZnQybW43NEd5TXZMT0Znd1BQak5tMzFaNkQyNWVZN0M1ZmlwQ2NjalUyNTIwam80KzNCWWJLYlFvU1RqOHBsdHJUNzVVUE9kQnRpZjlJd2xPRlNGYXNzN1QzeDhFZjRjOWtmSS9Ob3FBWERMbm9SV1g1VFdhd2w4UW5oQ01GWnJEdmF3SXdrcDF6eHozOWd2T1pLc29MMnY5T2ZDaU5JdnZiUUZqWlRHZm84eXhaNVkzZGRVbEc1OVJ5TjdGeUFvQmN5RTBKbWFqWTEvMTRuU05SOXdzaWxjdHJveUhwRjZ6N1podlB3K3lEVzRlZzc4Zy8zOGVsb0FBaE5SZm4zemdtR3RYcUtNdS9FOFVQM2JNdzBGK1FjYUxBdldNMGQ5OCtUNW1NVFB2N3lpcHFXVU56NmxqY3VRNmlnck9UaTlNSUdHTHlFb1ltbVdmNUxKK2hCV1Bic002MVQ0Ni8vQXU5WVZsdWhRL0tHdGNtS0NHbWpLSTFIY1lFMjRVMXNEM2V6cFJGSWtsV3JnSDU1QUMzU2d5SnRGMlJweVVNN28wQTdZK0pQMkVDZHU5UHREMXJwa3llRT0iXSwianBrbWV0YWRhdGEiOiJleUpqYjNKeVpXeGhkR2x2Ymtsa0lqb2lWRVpFTGtWQldqSXlNREl4TmpFNU5UY3VNakF5TkMwd015MHlPRlF4TURvek1Eb3dNQzQxT0RSYUluMCIsImVQYXJhZ29uLm1mLmdvdi5wbCI6ImV5SjNaWEp6YW1FaU9pSktVRXRmUzBGVFFWOVFRVkpCUjA5T1gzWXlMVEFpTENKS1VFdEpSQ0k2SWpBd01UQXdNREF3TURBd01ERXpOamswTmlJc0ltUmhkR0ZLVUVzaU9pSXlNREkxTFRBMkxUSXpWREUzT2pReE9qQXhMakF3TUZvaUxDSktVRXRTUlVZaU9uc2lTbEJMU1VRaU9pSXdNREV3TURBd01EQXdNREF4TXpZNU5EUWlMQ0pUU0VFeU5UWWlPaUpETmtNMU9ETkROMFE1TUVWRU9VTTBSREJHUmpFNE9VUTRSRGxEUkVWRVJEY3lNVEl3TURBeVJEVkVNVUpGT0RFM09UZzRNVVpEUlVJeVFVTTRRVFZGSW4xOSJ9.eyJkb2t1bWVudCI6eyJuYWdsb3dlayI6eyJ3ZXJzamEiOiJKUEtfS0FTQV9QQVJBR09OX3YyLTAiLCJkYXRhSlBLIjoiMjAyNS0wNi0yM1QxNzo0MTowMS4wMDBaIn0sInBvZG1pb3QxIjp7Ik5JUCI6Ijc3OTEwMTEzMjciLCJuYXp3YVBvZCI6IkpFUk9OSU1PIE1BUlRJTlMgUE9MU0tBIFMuQS4iLCJhZHJlc1BvZCI6eyJrb2RQb2N6dCI6IjAyLTc4NiIsIm1pZWpzYyI6IldBUlNaQVdBIiwidWxpY2EiOiJaV0nEhFpLVSBXQUxLSSBNxYFPRFlDSCAxMSJ9LCJuclVuaWsiOiJFQVoyMjAyMTYxOTU3IiwibnJGYWJyIjoiUE8xMTQwNTY0MjkiLCJuckV3aWQiOiIyMDI0LzAwMDA1MDc1MCJ9LCJwYXJhZ29uIjp7IkpQS0lEIjoxMzY5NDYsInBhbWllY0NociI6MSwibnJEb2siOjEzNjM4MSwicG96eWNqYSI6W3sidG93YXIiOnsiYnJ1dHRvIjoyMjY1LCJjZW5hIjo3NTUsImlkU3RQVFUiOiJDIiwiaWxvc2MiOiIzIiwibmF6d2EiOiJQYXNzYXRhR3VzdEJlbDY5MGcgICAgICAgQyIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjE3OTksImNlbmEiOjE3OTksImlkU3RQVFUiOiJCIiwiaWxvc2MiOiIxIiwibmF6d2EiOiJPc3RyeVNvc0NoaWxsNDU1bWwgICAgICAgQiIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjI5OTgsImNlbmEiOjE0OTksImlkU3RQVFUiOiJDIiwiaWxvc2MiOiIyIiwibmF6d2EiOiJNacSZcyBNaWVsIFdvxYIgNDAwZyAgICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6MjM5NiwiY2VuYSI6NTk5LCJpZFN0UFRVIjoiQiIsImlsb3NjIjoiNCIsIm5hendhIjoiU29zUnlibnlBc2lhRmxhMjAwbWwgICAgIEIiLCJvcGVyIjpmYWxzZX19XSwic3RQVFUiOlt7ImlkIjoiQSIsIndhcnQiOjIzMDB9LHsiaWQiOiJCIiwid2FydCI6ODAwfSx7ImlkIjoiQyIsIndhcnQiOjUwMH0seyJpZCI6IkQiLCJ3YXJ0IjowfSx7ImlkIjoiRSIsIndhcnQiOiJaVyJ9LHsiaWQiOiJGIiwid2FydCI6MTcwMH0seyJpZCI6IkciLCJ3YXJ0IjowfV0sInBvZHN1bSI6eyJ3YWx1dGEiOiJQTE4iLCJzdW1hQnJ1dHRvIjo5NDU4LCJzdW1hUG9kIjo1NjIsInN1bWFOZXR0byI6W3siaWRTdFBUVSI6IkIiLCJicnV0dG8iOjQxOTUsInZhdCI6MzExfSx7ImlkU3RQVFUiOiJDIiwiYnJ1dHRvIjo1MjYzLCJ2YXQiOjI1MX1dfSwidG90YWwiOnsiemFwbFp3cm90Ijo5NDU4fSwicGxhdG5vc2MiOlt7InJlc3p0YSI6ZmFsc2UsImZvcm1hIjoiMiIsIndhcnQiOjk0NTgsIm5hendhIjoiTWFzdGVyQ2FyZCAwNyAxIn1dLCJ6YWtTcHJ6ZWQiOiIyMDI1LTA2LTIzVDE3OjQxOjAxLjAwMFoiLCJuckthc3kiOiJLYXNhIDEwIiwia2FzamVyIjoiS2FzamVyIG5yIDQ1IiwibnJQYXJhZyI6MTYwLCJncmFmaWthIjoxfX19.IK_jBIn-Nn_oOwA2VGUc0bt7F5ZKM4efV76ciAKXYqbke6jpyRr66PPAO6fbLnk8ssI0BbZEjFxZewifEk0fCgouDfb6PcbnrVD4qoTS5LPtosilDjTC4SeAh-Ska1WVQW-4j0i3clGEQgSmzuF2TUwx03Y3oyJU-0qucwbRP2IMiziRGP11e7c9a2wZXFYIPBthNwxlPiL2zEGmDWg3-mqCi56nUN8Fn6ze1uxcM6y-YQXBzDAS2FSASiV4nsHWtueZv502gon0nyuo3YWnd-y3u1VnshaD0pbVsGiB_J78iPbrnVIPGkeQZHvuNCqP7bxQ14iBDjYK65Pb7wlJFA",
+    "header": [
+        {
+            "image": {
+                "id": "EAZ2202161957-1-79229",
+                "hash": "NOVUF1V 5Rw4erSATf0VjhGSgv6bViHYbEG0C7LIbMM=",
+                "data": "Qk02FwAAAAAAAD4AAAAoAAAAMAEAAJMAAAABAAEAAAAAAPgWAAAjLgAAIy4AAAAAAAAAAAAAAAAAAP\/\/\/wD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/ AB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/4AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/wAAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/wP\/\/wH\/\/\/ AA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/wf\/\/\/gf\/\/4AAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/wf\/\/\/\/D\/\/wD\/4B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/4f\/\/\/AYP\/wP\/\/4D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/8P\/\/\/gDh\/wf\/\/\/wP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/ P\/\/\/wAcP4f\/\/\/\/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/\/wAA\/\/H\/\/\/8ADh P\/\/\/\/ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/8AAP\/j\/\/\/\/AAcPn\/\/\/\/\/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/AAD\/x\/\/\/\/wAHj5\/\/\/j\/\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB\/\/\/wAA\/4\/\/\/\/8AB8ef\/\/AH\/4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/8AAP OD\/\/\/gAfDn\/\/gAf\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAf\/\/AAD\/HAf\/\/8APg5\/\/wAD\/4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AD\/\/wAA\/zgD\/\/\/gHwGf\/4AA\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8Af\/8AAP4wA\/ H\/H4Bn\/ AAH\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wD\/\/AAD cAH4AP\/8QR\/\/gAB\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/Af\/wAA\/HAB8AA\/\/GAf\/4AA\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/8AAPzwA H H\/jgH\/ AAP\/\/P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/Af\/AAD4 APH\/w\/x4B\/\/wAD\/\/x\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/wAA PwHj\/ P8 AP\/ AB\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/A\/8AAPn D5\/\/x PwD\/\/4B\/\/zz\/\/wcHgYCcOczM4PwOcHgZ8OczGA\/4H\/AAD5\/\/8f\/ fn8A\/\/\/\/\/\/4cf\/wGAwGBmZnMzMR8BmIwGeBnMzAP\/A\/wAA8f\/\/P\/\/nx\/AP\/\/\/\/\/ Dn\/8\/nM5z5P5zMzP\/OJn55nPJzJzz\/wP8AAPH\/\/z\/\/48\/4D\/8H\/\/\/gY\/ fzzOeeQGczMwHzyYCeZzycw88\/ B\/AADwAAA\/\/ OP A\/\/AT\/\/4DP\/n cznzkBnMzMB8ZmAnmc8nMPPP\/wfwAA8AAAP\/\/jn\/gP\/wEP\/ Az\/5\/iMRgZmYjEzMfA5nMBjAYjIwD\/8D8AAPAAAH\/\/55\/4D\/8fj\/\/gEf f8HgYGcOBwM4PxOcHAYYGAzGA\/\/A\/AAD\/\/\/\/\/\/ cf\/Af\/H4 P8Bn\/j\/\/\/n\/\/\/\/\/\/\/\/85\/\/\/n\/\/\/8\/\/\/\/4PwAA\/\/\/\/\/\/\/HN\/wH\/h AD\/AJ\/8\/\/\/5\/\/\/\/\/\/\/\/\/Of\/\/5\/\/\/\/P\/\/\/ B8AAP\/\/\/\/\/\/jyP8B\/4\/gB\/4CP\/Af\/ f f\/\/\/8\/\/wOf\/ f\/\/\/z\/\/\/\/wfAAD\/\/\/\/\/\/w8j\/gf P4w8eAj\/8H\/\/n\/n\/\/\/\/P\/8Hn\/\/n\/\/\/8\/\/\/\/8HwAA\/\/\/\/\/\/weA\/4H\/j MPDwM\/\/\/\/\/5\/\/\/\/\/\/\/\/\/\/\/\/\/5\/\/\/\/P\/\/\/\/B8AAP\/\/\/\/wAPgP A\/4\/iHh HP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wfAAD\/\/\/\/8AP4D\/wP P4D4\/xz\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8DwAA\/\/\/\/\/H\/ Q\/8D\/D B8P\/8\/\/\/\/\/\/\/n\/\/\/\/\/\/P\/\/\/\/\/j\/9\/\/\/\/\/\/g8AAP\/\/\/\/x\/\/kP\/gf\/\/g\/H\/\/P\/B\/wcHAPB4Dg A4PB\/\/AHwB8Hg\/\/4PAAD\/\/\/\/8f\/5D\/4H\/\/4Ph\/\/z\/wf4HBgBwcB4PAGDwf\/AB4APB4P\/ DwAA\/\/\/\/\/H\/ Q\/ B\/\/\/nA\/\/8\/8H8BwYAMGA DgBg8H\/gAcABweD\/\/g8AAP\/\/\/\/x\/\/kP\/wP\/\/\/gP\/\/P\/B AcHGDBgfgwAYPB\/wAGBwcHg\/\/4PAAD\/\/\/\/8f\/5D\/8D\/\/\/8D\/\/z\/wfAHB\/gwAP4MD Dwf4ABg\/\/B4P\/ DwAA\/\/\/\/\/H\/ Z\/\/g\/ H\/wf\/8\/8HwBwfAMAH DB\/g8H A YP\/weD\/\/g8AAP\/\/\/\/x\/\/i\/\/4H Af\/H\/\/P\/B4AcHADAB\/gwf4PB\/Af AAMHg\/\/wPAAD\/\/\/\/8f\/4\/\/\/B\/AD\/7\/\/z\/wcAHBwBwA\/4MH DwfwP\/gADB4P\/8HwAA\/\/\/\/\/H\/ P\/\/wPgAf\/\/\/8\/8GABwcB8AH DA\/g8H8D\/4ABweD\/\/B8AAP\/\/\/\/wP\/z\/\/ D4AH\/\/\/ P\/BgQcHB\/AA\/gwEYEB\/A\/ BwcBA\/\/wfAAD\/\/\/\/8Af8\/8fgeAB\/\/g\/j\/wQMHBwBwYH4OAGAAfwP\/wAHAAP\/8HwAA\/\/\/\/\/kD\/P8B8HgAf\/wH5\/8ADBwcAcHAeDwBgAP8D\/ ADwAH\/ B8AAP\/\/\/\/\/4fx AHA4AH\/8B f\/ABwcHgDB4Dg A4AH\/A\/\/wB8AD\/\/g\/AAD\/\/\/\/\/\/j fgA4OAB\/ AfH\/wA8H\/\/Dwf\/\/\/4eDn\/4H9\/j\/\/z\/\/wPwAA\/\/\/\/\/\/4\/nwAPBgAf\/gHz\/8AfB\/\/\/8H\/\/\/\/\/g\/\/ Acf\/\/\/\/\/\/8D8AAP8AAB\/\/H48ABwcAP\/4B4\/\/APwcP\/\/B\/\/h\/\/4P\/\/wAH\/\/\/\/\/\/\/B\/AAD\/AAAP\/x\/PgAeDgH\/ AeP\/wD8HB\/\/wf\/4P\/ D\/\/ AB\/\/\/\/\/\/\/gfwAA\/x\/\/j\/8fx4ADgeH\/\/gPn\/8B\/Bgf\/8H\/ D\/\/g\/\/\/wAf\/\/\/\/\/\/wP8AAP8\/\/8\/\/H eAA8H\/\/\/8Dx\/\/A\/wcH\/\/B\/\/g\/\/4P\/\/ AH\/\/\/\/\/\/8D\/AAD\/H\/\/P\/z\/jwAPg\/\/\/\/B8\/\/wf8Hj\/\/wf\/8f\/ D\/\/\/4D\/\/\/\/\/\/ B\/wAA\/x\/\/x\/8\/88AD4H\/\/\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/A\/8AAP f\/ P P\/HgB\/B\/\/\/g\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/gP\/AAD\/n\/\/h\/H\/48Af4P\/8AAT\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wH\/wAA\/4\/\/8AD\/\/Hwf\/B\/8AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/8AAP P\/\/wB\/\/x\/\/\/wP8B\/4H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8B\/\/AAD\/x\/\/\/D\/g P\/\/ B8D\/\/wf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8A\/\/wAA\/8cP\/\/\/gHx\/\/\/weD\/\/\/B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8Af\/8AAP\/jB\/\/\/wA8P\/\/ DD\/gD8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AP\/\/AAD\/4wP\/\/8APB4P\/wB\/PgPh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4AH\/\/wAA\/\/GD\/\/ ADiGA\/ B\/v4B8AAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/8AAP\/4gf\/\/gBxwgD\/w\/38AHgAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/AAD\/ MH\/\/4AceEAf8f74AB8AAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/wAA\/\/xh\/\/\/AOP4QH\/H88AAPgAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/8AAP\/ H\/\/\/wHH\/BD\/j AAAB8AAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/\/AAD\/\/w\/\/\/\/HD\/8H\/x\/gD AfH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/ H\/\/\/\/h\/\/wP8fwH\/\/D4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/wf\/\/\/g\/\/\/ACP8P\/\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/A\/\/\/A\/\/\/ AD8H\/\/8fz\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/8Af4A\/\/\/\/ B\/n\/\/ D8f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/wAAA\/\/\/\/\/ f\/\/\/\/g\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/wAD\/\/\/\/\/\/H\/\/\/\/4P5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/\/\/\/\/ f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8f\/\/j\/\/\/n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/w\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/z\/\/4P\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8\/\/ D\/\/\/j\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/g\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/z\/\/wP\/x P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8f\/8H\/8fn\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/H\/\/B\/ H5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/w\/\/D8f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/ f\/ P\/w\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/j\/\/H\/8Px\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/4\/\/\/\/ H4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/\/\/x P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/\/\/8\/n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/ MP\/\/\/fx\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/gAP\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/8AAf\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAB\/\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/4AAH\/\/j\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/x\/AAAf\/x\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/8fAAAB\/w\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/AEAAAP4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/5\/AAAD4P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAAYP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/8AAAAH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAAAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/8AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAAv\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAZ\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/ AAPf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAD7\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/4AB\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/ AA\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAf P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/n4AP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/4 AH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/ HgD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/44B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/OA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/zgf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/g YP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/4DmD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/cZh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/mY\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/82f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/Mf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAA="
+            }
+        },
+        {
+            "headerText": {
+                "headerTextLines": "<div class=\"align-center \">BIEDRONKA&nbsp;&quot;CODZIENNIE&nbsp;NISKIE&nbsp;CENY&quot;&nbsp;4129<\/div><div class=\"align-center \">02-786&nbsp;WARSZAWA&nbsp;UL.&nbsp;ZWI\u0104ZKU&nbsp;WALKI&nbsp;M\u0141ODYCH&nbsp;11<\/div><div class=\"align-center \">JERONIMO&nbsp;MARTINS&nbsp;POLSKA&nbsp;S.A.<\/div><div class=\"align-center \">62-025&nbsp;KOSTRZYN&nbsp;UL.\u017bNIWNA&nbsp;5<\/div>"
+            }
+        },
+        {
+            "headerData": {
+                "tin": "7791011327",
+                "docNumber": 136381,
+                "date": "2025-06-23T17:41:00.000Z",
+                "CPS": 56
+            }
+        }
+    ],
+    "body": [
+        {
+            "sellLine": {
+                "name": "PassataGustBel690g       C",
+                "vatId": "C",
+                "price": 755,
+                "total": 2265,
+                "quantity": "3",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "OstrySosChill455ml       B",
+                "vatId": "B",
+                "price": 1799,
+                "total": 1799,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Mi\u0119s Miel Wo\u0142 400g       C",
+                "vatId": "C",
+                "price": 1499,
+                "total": 2998,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "SosRybnyAsiaFla200ml     B",
+                "vatId": "B",
+                "price": 599,
+                "total": 2396,
+                "quantity": "4",
+                "isStorno": false
+            }
+        },
+        {
+            "vatSummary": {
+                "currency": "PLN",
+                "vatRatesSummary": [
+                    {
+                        "vatId": "B",
+                        "vatRate": 800,
+                        "vatSale": 4195,
+                        "vatAmount": 311
+                    },
+                    {
+                        "vatId": "C",
+                        "vatRate": 500,
+                        "vatSale": 5263,
+                        "vatAmount": 251
+                    }
+                ]
+            }
+        },
+        {
+            "sumInCurrency": {
+                "fiscalTotal": 9458,
+                "totalWithPacks": 9458,
+                "currency": "PLN",
+                "printBig": true,
+                "printable": true
+            }
+        },
+        {
+            "section": {
+                "type": 3
+            }
+        },
+        {
+            "payment": {
+                "type": "2",
+                "amount": 9458,
+                "name": "MasterCard 07 1",
+                "currency": "PLN"
+            }
+        },
+        {
+            "fiscalFooter": {
+                "billNumber": 160,
+                "uniqueNumber": "EAZ2202161957",
+                "cashNumber": "Kasa 10",
+                "cashier": "Kasjer nr 45",
+                "CPS": 56,
+                "date": "2025-06-23T17:41:01.000Z"
+            }
+        },
+        {
+            "addLine": {
+                "id": 0,
+                "data": "<div class=\"align-left \">Nr&nbsp;transakcji:<span class=\"float-right \">8457<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 30,
+                "data": "<div class=\"align-left \">Numer:<span class=\"float-right \">4129250623845710<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 6,
+                "data": "<div class=\"align-left \">Numer&nbsp;karty:<span class=\"float-right \">99529*****723<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "barcode": {
+                "id": 5,
+                "data": "MTAwMDA0MTI5ODQ1NzIwMDAxMDc0MA=="
+            }
+        },
+        {
+            "sysNumber": {
+                "data": "8457",
+                "width": 80,
+                "CPS": 56
+            }
+        }
+    ],
+    "sign": "20AFE30489FE367FE83B003654651CD1BB7B17964A33879F57BE9C88029762A6E47BA8E9C91AFAE8F3C03BA7DB2E793CB2C23405B6448C5C597B089F124D1F0A0A2E0DF6FA3DC6E7AD50F8AA84D2E4B3EDA2C8A50E34C2E1278087E4A46B5595416FB88F48B77251844204A6CEE1764D4C31D37637A32254FB4AAE7306D13F620C8B389118FD757BB73D6B6C195C56083C1B61370C653E22F6CC41A60D6837FA6A828B9EA750DF059FACDED6EC5C33ACBE6105C1CC3012D854804A25789EC1D6B6E799BF9D368289F49F2BA8DD85A777ECB7BB5567B21683D296D5B06881FC9EFC88F6EB9D520F1A4790647BEE342A8FEDBC50D788810E360AEB93DBEF094914"
+}

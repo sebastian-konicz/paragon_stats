@@ -1,0 +1,329 @@
+{
+    "protoVersion": "000",
+    "IDZ": "c=f8b59014baf64edc8c025ad5a6934fff|g={d444d382-2bb9-4fd7-92ff-2cc620a68ad2}|s=5160|p=16|t=8662",
+    "deviceType": 2,
+    "printed": false,
+    "data": "eyJhbGciOiJSUzI1NiIsIng1YyI6WyJNSUlGUVRDQ0F5bWdBd0lCQWdJREVDdE5NQTBHQ1NxR1NJYjNEUUVCQ3dVQU1JR2JNUXN3Q1FZRFZRUUdFd0pRVERFVU1CSUdBMVVFQ0F3TFRXRjZiM2RwWldOcmFXVXhFVEFQQmdOVkJBY01DRmRoY25ONllYZGhNU1F3SWdZRFZRUUxEQnREWlc1MGNuVnRJRU5sY25SNVptbHJZV05xYVNCbExVdGhjM2t4R3pBWkJnTlZCQW9NRWxCdmMyNWxkQ0JRYjJ4emEyRWdVeTVCTGpFZ01CNEdBMVVFQXd3WFVFOVRUa1ZVSUdVdFMyRnplU0JTYjI5MElFTkJJREV3SWhnUE1qQXlOREEzTURFd09USXlOREphR0E4eU1ETTBNRGN3TVRBNU1qSTBNbG93T3pFTE1Ba0dBMVVFQmhNQ1VFd3hGakFVQmdOVkJBTVREVVZCV2pJeU1ESXhOamc0TnpZeEZEQVNCZ05WQkFvVEMxQnZjMjVsZENCVExrRXVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXR2cTFtSHVnMTNKK3k2Ykh3S29MeEpHY2hGWEZRR21FQ0xqbWFKQld3V2tVTlBLeUJXSlJob05mdlF4bDFlVmtpRHpwNGE3SktnSHU1VXhPVmNMdzRoWVRiVm11RUEyaGtUclhENzBScFJNU3J4NlBoTkdSNmVVcXYzaUEwQjlXTmVGeitSWG9nbGZxdEo1aFZYQXdaMGRZWWx6ZUd0WmpkQjBzMGo1S1ZRdHk5SW9CSnF0T0NtT2hNQTBFZjExQjNrK0taTDBtM0U4R0FpVFh6U1BLS1dzUUxaeDRZV09tNlhWb3BiZjVMYmN2THdXZmlhUnVhNzVqa1lpdVZFL1kvUWtOdlR2dUVSQmhQZ3JIUHRLZDU1S3cwcmxldTZyQlNvOXVFY1VMTlFOMHdPMkgrY3g5azVBbnIyU1VHN2g1UkxkMGtmbkNtcWk0M0VnMVVmVjBMd0lEQVFBQm80SG9NSUhsTUF3R0ExVWRFd0VCL3dRQ01BQXdIUVlEVlIwT0JCWUVGTVhXZFB5NDg5VzJuZlNNMmV3eEFyL3hxVG1LTUI4R0ExVWRJd1FZTUJhQUZFNElhYlJWR0FHTFJkSGlwZVNaeldHQmo0MUpNQTRHQTFVZER3RUIvd1FFQXdJRjREQTFCZ05WSFI4RUxqQXNNQ3FnS0tBbWhpUm9kSFJ3T2k4dlpXc3VjRzl6Ym1WMExtTnZiUzV3YkM5amNtd3ZjbU5oTVM1amNtd3dUZ1lEVlIwZ0JFY3dSVEJEQmdzckJnRUVBWU9mYmdFQkFUQTBNRElHQ0NzR0FRVUZCd0lCRmlab2RIUndjem92TDJWckxuQnZjMjVsZEM1amIyMHVjR3d2WTNCekwzSmpZVEV1YUhSdGJEQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FnRUFlbVREeEdwd1dJWVlyWUU5SWVtSzFjRGowamxGRmVEdG1IN1BOdERQelFVTklUNFRZS3IrZENiUXBqdmwvWUsrNlhBbWhYdU9iYjJoY09teGZ3OTQvbENhWEhBT1p3d3I0TkZqQlJYYmVuYSttb1lKTXFleFp1LzQwb2Y0MFpsNkdxWk5FREFNZllqbUpybVNuWlpuTksySDdlcWg3RWUvSWRJUk5kU3ZQNmFaMGVya3RZaERUeDRYL0tpRTFXZ2tnRCtLUngvZUZZQW9lSnJiNEdiQkNwcGtUOFVnMjBoNEcvVTNWbnlNVnFXbUxLVC9SUXIwVUI0Qmo1SEhodmNHNmxiWThqT2hVWUkraWZoY3JYNjF5bGk2U3ZKWHg1aHZrY0RLVjVxMTJCVHMxTDhqQ3ZxSm1tR25lY2tuQ2ZzS1Ztdk5nczRzTGlOTDZBb01xbzZhT1ZZb2ZEcmdzajYrRFUvUzFkUjJ4VEhWL1h5L0NuYWYvZUR6eWZneW1TR2J6RFNHRlZWV2FQVHViZEV2TCtEdFhVWlNsd3c1a2lMOFVadXNBYUtwK3FPSSsyMDlmbENMdzZmYml1QnJBQVloQjJXZDFIOWVjOEJHZmF5UlhxMG5KRldTdmtNcGwyMm5UeDJ6RjZvSWJGVlQzWjVSRlpzR20zd3ByamVLQ1l5SmVtTGt5ZWYzQ3hLUFdtd282ZDd1b2srMVhyQ3dLazF1Y0VlOUVmVzRXSm9mYnFLWnNudGxWaEJYeVU2eFROZjJiTEpWbGlBaDRlS2piTFYrWUhyTm1zbm1hMWttOHJxVmdqNEg5NzFrd0p1YlBjT0Z1VEI2eGkvOVRhKy90dHk0Mllya2xQSkJVd1owbEdMcFVqNmpBYldFYS80S0k4MG1SN2lSM1ZGczNzMD0iXSwianBrbWV0YWRhdGEiOiJleUpqYjNKeVpXeGhkR2x2Ymtsa0lqb2lWRVpFTGtWQldqSXlNREl4TmpnNE56WXVNakF5TkMwd09DMHpNRlF3TmpveE1Eb3dNQzQyTWpaYUluMCIsImVQYXJhZ29uLm1mLmdvdi5wbCI6ImV5SjNaWEp6YW1FaU9pSktVRXRmUzBGVFFWOVFRVkpCUjA5T1gzWXlMVEFpTENKS1VFdEpSQ0k2SWpBd01UQXdNREF3TURBd01ERTRNek0zT1NJc0ltUmhkR0ZLVUVzaU9pSXlNREkxTFRFeExURTFWREUyT2pJNU9qTTJMakF3TUZvaUxDSktVRXRTUlVZaU9uc2lTbEJMU1VRaU9pSXdNREV3TURBd01EQXdNREF4T0RNek56Y2lMQ0pUU0VFeU5UWWlPaUkzT1RjNE1rSXpORE5DTTBKR1FqUTVNelJCT1VJNU5ETkRRVVZHUXpFelFUTTBOell6UlRGQlJEWkZOa0kzTlRrNE5ETXpRMFZDTlRJMU16aEZOelF6SW4xOSJ9.eyJkb2t1bWVudCI6eyJuYWdsb3dlayI6eyJ3ZXJzamEiOiJKUEtfS0FTQV9QQVJBR09OX3YyLTAiLCJkYXRhSlBLIjoiMjAyNS0xMS0xNVQxNjoyOTozNi4wMDBaIn0sInBvZG1pb3QxIjp7Ik5JUCI6Ijc3OTEwMTEzMjciLCJuYXp3YVBvZCI6IkpFUk9OSU1PIE1BUlRJTlMgUE9MU0tBIFMuQS4iLCJhZHJlc1BvZCI6eyJrb2RQb2N6dCI6IjAyLTc4NSIsIm1pZWpzYyI6IldBUlNaQVdBIiwidWxpY2EiOiJTVVJPV0lFQ0tJRUdPL1JPTUVSQSAxMCJ9LCJuclVuaWsiOiJFQVoyMjAyMTY4ODc2IiwibnJGYWJyIjoiUE8xMTQwNjQ3NDciLCJuckV3aWQiOiIyMDI0LzAwMDE0MzQ0MyJ9LCJwYXJhZ29uIjp7IkpQS0lEIjoxODMzNzksInBhbWllY0NociI6MSwibnJEb2siOjE4Mjk2MywicG96eWNqYSI6W3sidG93YXIiOnsiYnJ1dHRvIjoxNzk0LCJjZW5hIjoyOTksImlkU3RQVFUiOiJBIiwiaWxvc2MiOiI2IiwibmF6d2EiOiJXb2RhR2F6IE11c3p5MSw1bCAgICAgICAgQSIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjU5OCwiY2VuYSI6Mjk5LCJpZFN0UFRVIjoiQSIsImlsb3NjIjoiMiIsIm5hendhIjoiV29kYUdheiBNdXN6eTEsNWwgICAgICAgIEEiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjoyMTk5LCJjZW5hIjoyMTk5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMSIsIm5hendhIjoiSmFqYVdvbFd5YiBNIDIwc3p0ICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjoyNzQ1LCJjZW5hIjo1NDksImlkU3RQVFUiOiJDIiwiaWxvc2MiOiI1IiwibmF6d2EiOiJCcm9rdcWCeU1yb8W8b25lTUs0NTBnICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6NTQ5LCJjZW5hIjo1NDksImlkU3RQVFUiOiJBIiwiaWxvc2MiOiIxIiwibmF6d2EiOiJOYXBFbmVyRHppazAsNWxQdXMgICAgICAgQSIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjQzOSwiY2VuYSI6NDM5LCJpZFN0UFRVIjoiQSIsImlsb3NjIjoiMSIsIm5hendhIjoiUGl3b1R5c2tpZTAgMCw1bCAgICAgICAgIEEiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjoyODcyLCJjZW5hIjozNTksImlkU3RQVFUiOiJDIiwiaWxvc2MiOiI4IiwibmF6d2EiOiJUd2Fyw7NnS2wgQ2h1ZHkyNTBnICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjoxMTk4LCJjZW5hIjoxMTk4LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMSIsIm5hendhIjoiUG9taWRvclBhcHJ5Y3o1MDBnICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjoxNzk4LCJjZW5hIjoxNDk5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMiIsIm5hendhIjoiS2l3aSAxa2cgb3BhICAgICAgICAgICAgIEMiLCJvcGVyIjpmYWxzZSwicmFiYXQiOnsib3BpcyI6IjEiLCJ3YXJ0IjotMTIwMH19fSx7InRvd2FyIjp7ImJydXR0byI6MjQ5NSwiY2VuYSI6NDk5LCJpZFN0UFRVIjoiQiIsImlsb3NjIjoiNSIsIm5hendhIjoiR3VtQWlyd2F3ZXNDb29sQzI5ZyAgICAgIEIiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjo3OTgsImNlbmEiOjM5OSwiaWRTdFBUVSI6IkMiLCJpbG9zYyI6IjIiLCJuYXp3YSI6IlBpZWN6YXJrYTI1MGcgbWluaSAgICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6MzY5LCJjZW5hIjozNjksImlkU3RQVFUiOiJDIiwiaWxvc2MiOiIxIiwibmF6d2EiOiJDaGxlYiBCZXpEcm_FvC4zMDBnICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjozNjksImNlbmEiOjM2OSwiaWRTdFBUVSI6IkMiLCJpbG9zYyI6IjEiLCJuYXp3YSI6IkNobGViIEJlekRyb8W8IDMwMGcgICAgICAgQyIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjU0MywiY2VuYSI6Nzk5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMCw2ODAiLCJuYXp3YSI6IkNlYnVsYSBtaXggICAgICAgICAgICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6MTE5MiwiY2VuYSI6MTg4LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiOCIsIm5hendhIjoiTGltb25rYSBzenQgICAgICAgICAgICAgIEMiLCJvcGVyIjpmYWxzZSwicmFiYXQiOnsib3BpcyI6IjEiLCJ3YXJ0IjotMzEyfX19LHsidG93YXIiOnsiYnJ1dHRvIjoxNzI1LCJjZW5hIjo1NzUsImlkU3RQVFUiOiJDIiwiaWxvc2MiOiI2IiwibmF6d2EiOiJBd29rYWRvIFN6dHVrYSAgICAgICAgICAgQyIsIm9wZXIiOmZhbHNlLCJyYWJhdCI6eyJvcGlzIjoiMSIsIndhcnQiOi0xNzI1fX19XSwic3RQVFUiOlt7ImlkIjoiQSIsIndhcnQiOjIzMDB9LHsiaWQiOiJCIiwid2FydCI6ODAwfSx7ImlkIjoiQyIsIndhcnQiOjUwMH0seyJpZCI6IkQiLCJ3YXJ0IjowfSx7ImlkIjoiRSIsIndhcnQiOiJaVyJ9LHsiaWQiOiJGIiwid2FydCI6MTcwMH0seyJpZCI6IkciLCJ3YXJ0IjowfV0sInBvZHN1bSI6eyJ3YWx1dGEiOiJQTE4iLCJzdW1hQnJ1dHRvIjoyMTY4Mywic3VtYVBvZCI6MTU3MCwic3VtYU9wdXN0IjotMzIzNywic3VtYU5ldHRvIjpbeyJpZFN0UFRVIjoiQSIsImJydXR0byI6MzM4MCwidmF0Ijo2MzJ9LHsiaWRTdFBUVSI6IkIiLCJicnV0dG8iOjI0OTUsInZhdCI6MTg1fSx7ImlkU3RQVFUiOiJDIiwiYnJ1dHRvIjoxNTgwOCwidmF0Ijo3NTN9XX0sInRvdGFsIjp7InphcGxad3JvdCI6MjE2ODN9LCJwbGF0bm9zYyI6W3sicmVzenRhIjpmYWxzZSwiZm9ybWEiOiIyIiwid2FydCI6MjE2ODMsIm5hendhIjoiREVCSVQgTUFTVEVSQ0FSRCAwNyAxIn1dLCJ6YWtTcHJ6ZWQiOiIyMDI1LTExLTE1VDE2OjI5OjM2LjAwMFoiLCJuckthc3kiOiJLYXNhIDE2Iiwia2FzamVyIjoiS2FzamVyIG5yIDIzIiwibnJQYXJhZyI6MTY4LCJncmFmaWthIjoxfX19.n7NMd72_sd_1i839HHan-MssiqJ3Nd6UkQ6vxvwUrDvflmgYhm96jjhiU65pjj-dEhqI2GTayIkOUCNntdULAJJ9hGYv1n6-xWMZ3FNZz2ldhflYMaDUknTrtBVUuWgQxjgIT8a4onYoNO4cCQGgpdqitzMcbriL7ZZtSFarYFj5dz494z15fbpHNi-2uYaz2_axZeDqdsI1fyrtK0qgQ3a3uGmTJoKejcyFD6bOlvliayh70m1ebAi_SbYSoDQZREPb9YHxh0Kn8hgEaKg7M7eFet4TCoWHs8uwb_AvocPnDNwLTsEQShZ5qhW4hxoZYrL8TJhU75_S4vpj24MGvg",
+    "header": [
+        {
+            "image": {
+                "id": "EAZ2202168876-1-39414",
+                "hash": "NOVUF1V 5Rw4erSATf0VjhGSgv6bViHYbEG0C7LIbMM=",
+                "data": "Qk02FwAAAAAAAD4AAAAoAAAAMAEAAJMAAAABAAEAAAAAAPgWAAAjLgAAIy4AAAAAAAAAAAAAAAAAAP\/\/\/wD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/ AB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/4AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/wAAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/wP\/\/wH\/\/\/ AA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/wf\/\/\/gf\/\/4AAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/wf\/\/\/\/D\/\/wD\/4B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/4f\/\/\/AYP\/wP\/\/4D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/8P\/\/\/gDh\/wf\/\/\/wP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/ P\/\/\/wAcP4f\/\/\/\/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/\/wAA\/\/H\/\/\/8ADh P\/\/\/\/ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/8AAP\/j\/\/\/\/AAcPn\/\/\/\/\/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/AAD\/x\/\/\/\/wAHj5\/\/\/j\/\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB\/\/\/wAA\/4\/\/\/\/8AB8ef\/\/AH\/4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/8AAP OD\/\/\/gAfDn\/\/gAf\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAf\/\/AAD\/HAf\/\/8APg5\/\/wAD\/4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AD\/\/wAA\/zgD\/\/\/gHwGf\/4AA\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8Af\/8AAP4wA\/ H\/H4Bn\/ AAH\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wD\/\/AAD cAH4AP\/8QR\/\/gAB\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/Af\/wAA\/HAB8AA\/\/GAf\/4AA\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/8AAPzwA H H\/jgH\/ AAP\/\/P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/Af\/AAD4 APH\/w\/x4B\/\/wAD\/\/x\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/wAA PwHj\/ P8 AP\/ AB\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/A\/8AAPn D5\/\/x PwD\/\/4B\/\/zz\/\/wcHgYCcOczM4PwOcHgZ8OczGA\/4H\/AAD5\/\/8f\/ fn8A\/\/\/\/\/\/4cf\/wGAwGBmZnMzMR8BmIwGeBnMzAP\/A\/wAA8f\/\/P\/\/nx\/AP\/\/\/\/\/ Dn\/8\/nM5z5P5zMzP\/OJn55nPJzJzz\/wP8AAPH\/\/z\/\/48\/4D\/8H\/\/\/gY\/ fzzOeeQGczMwHzyYCeZzycw88\/ B\/AADwAAA\/\/ OP A\/\/AT\/\/4DP\/n cznzkBnMzMB8ZmAnmc8nMPPP\/wfwAA8AAAP\/\/jn\/gP\/wEP\/ Az\/5\/iMRgZmYjEzMfA5nMBjAYjIwD\/8D8AAPAAAH\/\/55\/4D\/8fj\/\/gEf f8HgYGcOBwM4PxOcHAYYGAzGA\/\/A\/AAD\/\/\/\/\/\/ cf\/Af\/H4 P8Bn\/j\/\/\/n\/\/\/\/\/\/\/\/85\/\/\/n\/\/\/8\/\/\/\/4PwAA\/\/\/\/\/\/\/HN\/wH\/h AD\/AJ\/8\/\/\/5\/\/\/\/\/\/\/\/\/Of\/\/5\/\/\/\/P\/\/\/ B8AAP\/\/\/\/\/\/jyP8B\/4\/gB\/4CP\/Af\/ f f\/\/\/8\/\/wOf\/ f\/\/\/z\/\/\/\/wfAAD\/\/\/\/\/\/w8j\/gf P4w8eAj\/8H\/\/n\/n\/\/\/\/P\/8Hn\/\/n\/\/\/8\/\/\/\/8HwAA\/\/\/\/\/\/weA\/4H\/j MPDwM\/\/\/\/\/5\/\/\/\/\/\/\/\/\/\/\/\/\/5\/\/\/\/P\/\/\/\/B8AAP\/\/\/\/wAPgP A\/4\/iHh HP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wfAAD\/\/\/\/8AP4D\/wP P4D4\/xz\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8DwAA\/\/\/\/\/H\/ Q\/8D\/D B8P\/8\/\/\/\/\/\/\/n\/\/\/\/\/\/P\/\/\/\/\/j\/9\/\/\/\/\/\/g8AAP\/\/\/\/x\/\/kP\/gf\/\/g\/H\/\/P\/B\/wcHAPB4Dg A4PB\/\/AHwB8Hg\/\/4PAAD\/\/\/\/8f\/5D\/4H\/\/4Ph\/\/z\/wf4HBgBwcB4PAGDwf\/AB4APB4P\/ DwAA\/\/\/\/\/H\/ Q\/ B\/\/\/nA\/\/8\/8H8BwYAMGA DgBg8H\/gAcABweD\/\/g8AAP\/\/\/\/x\/\/kP\/wP\/\/\/gP\/\/P\/B AcHGDBgfgwAYPB\/wAGBwcHg\/\/4PAAD\/\/\/\/8f\/5D\/8D\/\/\/8D\/\/z\/wfAHB\/gwAP4MD Dwf4ABg\/\/B4P\/ DwAA\/\/\/\/\/H\/ Z\/\/g\/ H\/wf\/8\/8HwBwfAMAH DB\/g8H A YP\/weD\/\/g8AAP\/\/\/\/x\/\/i\/\/4H Af\/H\/\/P\/B4AcHADAB\/gwf4PB\/Af AAMHg\/\/wPAAD\/\/\/\/8f\/4\/\/\/B\/AD\/7\/\/z\/wcAHBwBwA\/4MH DwfwP\/gADB4P\/8HwAA\/\/\/\/\/H\/ P\/\/wPgAf\/\/\/8\/8GABwcB8AH DA\/g8H8D\/4ABweD\/\/B8AAP\/\/\/\/wP\/z\/\/ D4AH\/\/\/ P\/BgQcHB\/AA\/gwEYEB\/A\/ BwcBA\/\/wfAAD\/\/\/\/8Af8\/8fgeAB\/\/g\/j\/wQMHBwBwYH4OAGAAfwP\/wAHAAP\/8HwAA\/\/\/\/\/kD\/P8B8HgAf\/wH5\/8ADBwcAcHAeDwBgAP8D\/ ADwAH\/ B8AAP\/\/\/\/\/4fx AHA4AH\/8B f\/ABwcHgDB4Dg A4AH\/A\/\/wB8AD\/\/g\/AAD\/\/\/\/\/\/j fgA4OAB\/ AfH\/wA8H\/\/Dwf\/\/\/4eDn\/4H9\/j\/\/z\/\/wPwAA\/\/\/\/\/\/4\/nwAPBgAf\/gHz\/8AfB\/\/\/8H\/\/\/\/\/g\/\/ Acf\/\/\/\/\/\/8D8AAP8AAB\/\/H48ABwcAP\/4B4\/\/APwcP\/\/B\/\/h\/\/4P\/\/wAH\/\/\/\/\/\/\/B\/AAD\/AAAP\/x\/PgAeDgH\/ AeP\/wD8HB\/\/wf\/4P\/ D\/\/ AB\/\/\/\/\/\/\/gfwAA\/x\/\/j\/8fx4ADgeH\/\/gPn\/8B\/Bgf\/8H\/ D\/\/g\/\/\/wAf\/\/\/\/\/\/wP8AAP8\/\/8\/\/H eAA8H\/\/\/8Dx\/\/A\/wcH\/\/B\/\/g\/\/4P\/\/ AH\/\/\/\/\/\/8D\/AAD\/H\/\/P\/z\/jwAPg\/\/\/\/B8\/\/wf8Hj\/\/wf\/8f\/ D\/\/\/4D\/\/\/\/\/\/ B\/wAA\/x\/\/x\/8\/88AD4H\/\/\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/A\/8AAP f\/ P P\/HgB\/B\/\/\/g\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/gP\/AAD\/n\/\/h\/H\/48Af4P\/8AAT\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wH\/wAA\/4\/\/8AD\/\/Hwf\/B\/8AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4D\/8AAP P\/\/wB\/\/x\/\/\/wP8B\/4H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8B\/\/AAD\/x\/\/\/D\/g P\/\/ B8D\/\/wf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8A\/\/wAA\/8cP\/\/\/gHx\/\/\/weD\/\/\/B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8Af\/8AAP\/jB\/\/\/wA8P\/\/ DD\/gD8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AP\/\/AAD\/4wP\/\/8APB4P\/wB\/PgPh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/4AH\/\/wAA\/\/GD\/\/ ADiGA\/ B\/v4B8AAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/8AAP\/4gf\/\/gBxwgD\/w\/38AHgAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/AAD\/ MH\/\/4AceEAf8f74AB8AAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/wAA\/\/xh\/\/\/AOP4QH\/H88AAPgAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/8AAP\/ H\/\/\/wHH\/BD\/j AAAB8AAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/\/AAD\/\/w\/\/\/\/HD\/8H\/x\/gD AfH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/ H\/\/\/\/h\/\/wP8fwH\/\/D4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/wf\/\/\/g\/\/\/ACP8P\/\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/A\/\/\/A\/\/\/ AD8H\/\/8fz\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/8Af4A\/\/\/\/ B\/n\/\/ D8f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/wAAA\/\/\/\/\/ f\/\/\/\/g\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/wAD\/\/\/\/\/\/H\/\/\/\/4P5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/\/\/\/\/ f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8f\/\/j\/\/\/n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/w\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/z\/\/4P\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8\/\/ D\/\/\/j\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/g\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/z\/\/wP\/x P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/8f\/8H\/8fn\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/H\/\/B\/ H5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/w\/\/D8f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/ f\/ P\/w\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/j\/\/H\/8Px\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/4\/\/\/\/ H4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/P\/\/\/\/x P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/x\/\/\/\/8\/n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/ MP\/\/\/fx\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/gAP\/\/\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/8AAf\/\/ P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAB\/\/\/H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/4AAH\/\/j\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/x\/AAAf\/x\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/8fAAAB\/w\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/AEAAAP4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/5\/AAAD4P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAAYP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/8AAAAH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAAAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/8AAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAAv\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAAZ\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/ AAPf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAD7\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/4AB\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/ AA\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/gAf P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/n4AP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/4 AH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/ HgD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/44B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/OA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/zgf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/g YP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/4DmD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/cZh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/mY\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/82f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/Mf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/5\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAA="
+            }
+        },
+        {
+            "headerText": {
+                "headerTextLines": "<div class=\"align-center \">BIEDRONKA&nbsp;&quot;CODZIENNIE&nbsp;NISKIE&nbsp;CENY&quot;&nbsp;5160<\/div><div class=\"align-center \">02-785&nbsp;WARSZAWA&nbsp;UL.&nbsp;SUROWIECKIEGO\/ROMERA&nbsp;10<\/div><div class=\"align-center \">JERONIMO&nbsp;MARTINS&nbsp;POLSKA&nbsp;S.A.<\/div><div class=\"align-center \">62-025&nbsp;KOSTRZYN&nbsp;UL.\u017bNIWNA&nbsp;5<\/div>"
+            }
+        },
+        {
+            "headerData": {
+                "tin": "7791011327",
+                "docNumber": 182963,
+                "date": "2025-11-15T16:29:36.000Z",
+                "CPS": 56
+            }
+        }
+    ],
+    "body": [
+        {
+            "sellLine": {
+                "name": "WodaGaz Muszy1,5l        A",
+                "vatId": "A",
+                "price": 299,
+                "total": 1794,
+                "quantity": "6",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "WodaGaz Muszy1,5l        A",
+                "vatId": "A",
+                "price": 299,
+                "total": 598,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "JajaWolWyb M 20szt       C",
+                "vatId": "C",
+                "price": 2199,
+                "total": 2199,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Broku\u0142yMro\u017coneMK450g     C",
+                "vatId": "C",
+                "price": 549,
+                "total": 2745,
+                "quantity": "5",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "NapEnerDzik0,5lPus       A",
+                "vatId": "A",
+                "price": 549,
+                "total": 549,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "PiwoTyskie0 0,5l         A",
+                "vatId": "A",
+                "price": 439,
+                "total": 439,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Twar\u00f3gKl Chudy250g       C",
+                "vatId": "C",
+                "price": 359,
+                "total": 2872,
+                "quantity": "8",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "PomidorPaprycz500g       C",
+                "vatId": "C",
+                "price": 1198,
+                "total": 1198,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Kiwi 1kg opa             C",
+                "vatId": "C",
+                "price": 1499,
+                "total": 2998,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "discountLine": {
+                "base": 2998,
+                "value": 1200,
+                "isDiscount": true,
+                "isPercent": false,
+                "isStorno": false,
+                "vatId": "C"
+            }
+        },
+        {
+            "sellLine": {
+                "name": "GumAirwawesCoolC29g      B",
+                "vatId": "B",
+                "price": 499,
+                "total": 2495,
+                "quantity": "5",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Pieczarka250g mini       C",
+                "vatId": "C",
+                "price": 399,
+                "total": 798,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Chleb BezDro\u017c.300g       C",
+                "vatId": "C",
+                "price": 369,
+                "total": 369,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Chleb BezDro\u017c 300g       C",
+                "vatId": "C",
+                "price": 369,
+                "total": 369,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Cebula mix               C",
+                "vatId": "C",
+                "price": 799,
+                "total": 543,
+                "quantity": "0,680",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Limonka szt              C",
+                "vatId": "C",
+                "price": 188,
+                "total": 1504,
+                "quantity": "8",
+                "isStorno": false
+            }
+        },
+        {
+            "discountLine": {
+                "base": 1504,
+                "value": 312,
+                "isDiscount": true,
+                "isPercent": false,
+                "isStorno": false,
+                "vatId": "C"
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Awokado Sztuka           C",
+                "vatId": "C",
+                "price": 575,
+                "total": 3450,
+                "quantity": "6",
+                "isStorno": false
+            }
+        },
+        {
+            "discountLine": {
+                "base": 3450,
+                "value": 1725,
+                "isDiscount": true,
+                "isPercent": false,
+                "isStorno": false,
+                "vatId": "C"
+            }
+        },
+        {
+            "discountSummary": {
+                "discounts": 3237
+            }
+        },
+        {
+            "vatSummary": {
+                "currency": "PLN",
+                "vatRatesSummary": [
+                    {
+                        "vatId": "A",
+                        "vatRate": 2300,
+                        "vatSale": 3380,
+                        "vatAmount": 632
+                    },
+                    {
+                        "vatId": "B",
+                        "vatRate": 800,
+                        "vatSale": 2495,
+                        "vatAmount": 185
+                    },
+                    {
+                        "vatId": "C",
+                        "vatRate": 500,
+                        "vatSale": 15808,
+                        "vatAmount": 753
+                    }
+                ]
+            }
+        },
+        {
+            "sumInCurrency": {
+                "fiscalTotal": 21683,
+                "totalWithPacks": 21683,
+                "currency": "PLN",
+                "printBig": true,
+                "printable": true
+            }
+        },
+        {
+            "section": {
+                "type": 3
+            }
+        },
+        {
+            "payment": {
+                "type": "2",
+                "amount": 21683,
+                "name": "DEBIT MASTERCARD 07 1",
+                "currency": "PLN"
+            }
+        },
+        {
+            "fiscalFooter": {
+                "billNumber": 168,
+                "uniqueNumber": "EAZ2202168876",
+                "cashNumber": "Kasa 16",
+                "cashier": "Kasjer nr 23",
+                "CPS": 56,
+                "date": "2025-11-15T16:29:36.000Z"
+            }
+        },
+        {
+            "addLine": {
+                "id": 0,
+                "data": "<div class=\"align-left \">Nr&nbsp;transakcji:<span class=\"float-right \">8662<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 30,
+                "data": "<div class=\"align-left \">Numer:<span class=\"float-right \">5160251115866216<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 29,
+                "data": "<div class=\"align-left \">Udzielono&nbsp;\u0142\u0105cznie&nbsp;rabat\u00f3w:<span class=\"float-right \">32,37<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 6,
+                "data": "<div class=\"align-left \">Numer&nbsp;karty:<span class=\"float-right \">99529*****723<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "barcode": {
+                "id": 5,
+                "data": "MTAwMDA1MTYwODY2MjIxNDUxNjA0NA=="
+            }
+        },
+        {
+            "sysNumber": {
+                "data": "8662",
+                "width": 80,
+                "CPS": 56
+            }
+        }
+    ],
+    "sign": "9FB34C77BDBFB1DFF58BCDFD1C76A7F8CB2C8AA27735DE94910EAFC6FC14AC3BDF966818866F7A8E386253AE698E3F9D121A88D864DAC8890E502367B5D50B00927D84662FD67EBEC56319DC5359CF695D85F95831A0D49274EBB41554B96810C638084FC6B8A2762834EE1C0901A0A5DAA2B7331C6EB88BED966D4856AB6058F9773E3DE33D797DBA47362FB6B986B3DBF6B165E0EA76C2357F2AED2B4AA04376B7B8699326829E8DCC850FA6CE96F9626B287BD26D5E6C08BF49B612A034194443DBF581F18742A7F2180468A83B33B7857ADE130A8587B3CBB06FF02FA1C3E70CDC0B4EC1104A1679AA15B8871A1962B2FC4C9854EF9FD2E2FA63DB8306BE"
+}
