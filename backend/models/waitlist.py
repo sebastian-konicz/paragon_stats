@@ -1,0 +1,1 @@
+"""Email waitlist models."""

@@ -1,0 +1,1 @@
+"""JSON receipt parsing service."""
