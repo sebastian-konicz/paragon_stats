@@ -11,6 +11,7 @@
 - Gromadzenie surowych plików dla przyszłego AI
 - Waitlista emailowa dla budowania bazy użytkowników
 - Monetyzacja przez BuyCoffee.to (dobrowolne wsparcie)
+- **NOWE:** Generowanie obrazków do udostępniania w social media
 
 ### Właściciel projektu
 Sebastian - Data Analyst w Mastercard, doświadczenie z Python, Pandas, SQL, Spark. 
@@ -28,6 +29,7 @@ Projekt realizowany wieczorami i w weekendy.
 | Język | Python | 3.11+ |
 | Baza danych | SQLite | 3 |
 | Eksport | openpyxl, csv | latest |
+| **Obrazki** | **Pillow** | latest |
 | Walidacja | Pydantic | 2.0+ |
 | Wykresy | Plotly | 5.x |
 | Testy | pytest | 7.x+ |
@@ -42,6 +44,7 @@ paragonstats/
 ├── README.md
 ├── PRD.md
 ├── CLAUDE.md
+├── ROADMAP_ADHD.md
 ├── PRIVACY_POLICY.md
 ├── TERMS_OF_SERVICE.md
 ├── requirements.txt
@@ -59,23 +62,25 @@ paragonstats/
 │   │   ├── __init__.py
 │   │   ├── receipt.py
 │   │   ├── stats.py
-│   │   └── waitlist.py      # Email waitlist
+│   │   └── waitlist.py
 │   │
 │   ├── services/
 │   │   ├── __init__.py
 │   │   ├── parser.py
 │   │   ├── stats.py
 │   │   ├── wrapped.py
-│   │   ├── exporter.py      # Excel/CSV export
-│   │   ├── storage.py       # Raw file storage
-│   │   └── deduplication.py # Hash-based dedup
+│   │   ├── exporter.py
+│   │   ├── storage.py
+│   │   ├── deduplication.py
+│   │   └── image_generator.py  # NOWE
 │   │
 │   ├── routes/
 │   │   ├── __init__.py
 │   │   ├── upload.py
 │   │   ├── stats.py
-│   │   ├── export.py        # Export endpoints
-│   │   └── waitlist.py      # Waitlist endpoint
+│   │   ├── export.py
+│   │   ├── waitlist.py
+│   │   └── images.py           # NOWE
 │   │
 │   └── tests/
 │       └── ...
@@ -90,11 +95,17 @@ paragonstats/
 │       ├── __init__.py
 │       ├── charts.py
 │       ├── metrics.py
-│       ├── email_form.py    # Async email form
-│       └── buycoffee.py     # BuyCoffee widget
+│       ├── email_form.py
+│       ├── buycoffee.py
+│       └── share_images.py     # NOWE
+│
+├── assets/                     # NOWE
+│   ├── fonts/
+│   ├── logo/
+│   └── templates/
 │
 ├── storage/
-│   └── raw_receipts/        # Surowe pliki JSON
+│   └── raw_receipts/
 │
 ├── data/
 │   └── .gitkeep
@@ -106,74 +117,154 @@ paragonstats/
 
 ---
 
-## 📊 Model danych
+## 📊 Struktura JSON e-paragonu Biedronka (ZWERYFIKOWANE)
 
-### Schema bazy danych (SQLite)
+### ⚠️ KRYTYCZNE: Wszystkie kwoty są w GROSZACH (int) - dzielić przez 100!
+
+### Kluczowe ścieżki do danych
+
+| Dane | Ścieżka JSON | Typ | Przykład |
+|------|--------------|-----|----------|
+| **Data/czas** | `header[2].headerData.date` | ISO8601 | `"2026-01-17T15:08:58.000Z"` |
+| **Nr dokumentu** | `header[2].headerData.docNumber` | int | `172202` |
+| **NIP** | `header[2].headerData.tin` | string | `"7791011327"` |
+| **Adres sklepu** | `header[1].headerText.headerTextLines` | HTML | wymaga parsowania |
+| **Nr sklepu** | `IDZ` parametr `s=` | string | `"5160"` |
+| **Nr kasy** | `IDZ` parametr `p=` LUB `fiscalFooter.cashNumber` | string | `"11"` / `"Kasa 11"` |
+| **Nr transakcji** | `IDZ` parametr `t=` LUB `addLine[id=0]` | string | `"1060"` |
+| **Unikalny ID** | `body[].fiscalFooter.uniqueNumber` | string | `"EAZ2202168920"` |
+| **Nr złożony** | `body[].addLine[id=30]` | string | `"5160260117106011"` |
+| **Karta lojalnościowa** | `body[].addLine[id=6]` | string | `"99529*****723"` |
+| **Kasjer** | `body[].fiscalFooter.cashier` | string | `"Kasjer nr 33"` |
+| **Suma produktów** | `body[].sumInCurrency.fiscalTotal` | int | `15217` (grosze) |
+| **Suma z kaucją** | `body[].sumInCurrency.totalWithPacks` | int | `15567` (grosze) |
+| **Suma rabatów** | `body[].discountSummary.discounts` | int | `2940` (grosze) |
+| **Płatność** | `body[].payment.name` | string | `"DEBIT MASTERCARD 07 1"` |
+| **Kod kreskowy** | `body[].barcode.data` | base64 | `"MTAwMDA1MTYw..."` |
+
+### Produkt (sellLine)
+
+```json
+{
+  "sellLine": {
+    "name": "KaszaPęczak4X100g        C",  // ~25 znaków + litera VAT
+    "vatId": "C",                           // A=23%, B=8%, C=5%, D=0%
+    "price": 189,                           // GROSZE! = 1.89 PLN
+    "total": 567,                           // GROSZE! = 5.67 PLN
+    "quantity": "3",                        // STRING! może być "0,740"
+    "isStorno": false                       // WAŻNE: pomijać jeśli true!
+  }
+}
+```
+
+### Rabat produktowy (discountLine) - występuje PO sellLine
+
+```json
+{
+  "discountLine": {
+    "base": 567,        // kwota przed rabatem (grosze)
+    "value": 189,       // wartość rabatu (grosze)
+    "isDiscount": true,
+    "isPercent": false,
+    "vatId": "C"
+  }
+}
+```
+
+### Voucher (discountVat) - rabat na poziomie stawki VAT
+
+```json
+{
+  "discountVat": {
+    "name": "Voucher",
+    "base": 8650,
+    "value": 533,       // 5.33 PLN rabatu
+    "vatId": "A"
+  }
+}
+```
+
+### Opakowania zwrotne (pack) - opcjonalne
+
+```json
+{
+  "pack": {
+    "name": "But Plastik kaucja",
+    "price": 50,        // 0.50 PLN za sztukę
+    "quantity": "7",
+    "total": 350        // 3.50 PLN łącznie
+  }
+}
+```
+
+### Parsowanie quantity
+
+```python
+def parse_quantity(qty_str: str) -> float:
+    """Parse quantity string to float. Handles Polish decimal comma."""
+    return float(qty_str.replace(",", "."))
+
+# "3" -> 3.0
+# "0,740" -> 0.74
+```
+
+### Parsowanie IDZ
+
+```python
+import re
+
+def parse_idz(idz: str) -> dict:
+    """Extract store, pos, transaction from IDZ string."""
+    pattern = r's=(\d+)\|p=(\d+)\|t=(\d+)'
+    match = re.search(pattern, idz)
+    if match:
+        return {
+            "store_number": match.group(1),
+            "pos_number": match.group(2),
+            "transaction_number": match.group(3)
+        }
+    return {}
+
+# "c=...|g=...|s=5160|p=11|t=1060" -> {"store_number": "5160", "pos_number": "11", "transaction_number": "1060"}
+```
+
+---
+
+## 📊 Model danych (SQLite)
+
+### Główne tabele
+
+| Tabela | Opis | Klucz unikalny |
+|--------|------|----------------|
+| `receipts` | Paragony | `unique_number` (EAZ...) |
+| `items` | Pozycje zakupowe | `id` (auto) |
+| `vouchers` | Vouchery/rabaty VAT | `id` (auto) |
+| `packs` | Opakowania zwrotne | `id` (auto) |
+| `vat_summary` | Podsumowanie VAT | `id` (auto) |
+| `file_hashes` | Deduplikacja | `file_hash` |
+| `raw_products` | Baza produktów (AI) | `name_clean` |
+| `waitlist` | Emaile | `email` |
+
+### Kluczowe pola receipts
 
 ```sql
--- Tabela paragonów
-CREATE TABLE receipts (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    receipt_number TEXT UNIQUE,
-    shop_address TEXT,
-    date DATE NOT NULL,
-    time TIME NOT NULL,
-    datetime DATETIME NOT NULL,
-    day_of_week INTEGER,  -- 0=Monday
-    hour INTEGER,
-    total_before_discount REAL,
-    total_discount REAL,
-    total_after_discount REAL,
-    payment_method TEXT,
-    file_hash TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    raw_json TEXT
-);
+unique_number TEXT UNIQUE NOT NULL,  -- główny identyfikator
+store_number TEXT,                    -- "5160"
+fiscal_total INTEGER,                 -- suma produktów (grosze)
+total_with_packs INTEGER,             -- suma z kaucją (grosze)
+total_discount INTEGER,               -- suma rabatów (grosze)
+loyalty_card TEXT,                    -- "99529*****723"
+```
 
--- Tabela pozycji
-CREATE TABLE items (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    receipt_id INTEGER NOT NULL,
-    name TEXT NOT NULL,
-    name_normalized TEXT,
-    quantity REAL,
-    unit TEXT,
-    price_per_unit REAL,
-    total_price REAL,
-    discount REAL DEFAULT 0,
-    final_price REAL,
-    vat_rate TEXT,
-    FOREIGN KEY (receipt_id) REFERENCES receipts(id) ON DELETE CASCADE
-);
+### Kluczowe pola items
 
--- Deduplikacja plików
-CREATE TABLE file_hashes (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    file_hash TEXT UNIQUE NOT NULL,
-    original_filename TEXT,
-    file_size INTEGER,
-    receipt_count INTEGER,
-    uploaded_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
-
--- Waitlista
-CREATE TABLE waitlist (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    email TEXT UNIQUE NOT NULL,
-    source TEXT DEFAULT 'dashboard',
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    ip_hash TEXT
-);
-
--- Baza produktów (dla AI)
-CREATE TABLE raw_products (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name_original TEXT NOT NULL,
-    name_normalized TEXT UNIQUE,
-    occurrence_count INTEGER DEFAULT 1,
-    first_seen DATETIME DEFAULT CURRENT_TIMESTAMP,
-    last_seen DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+```sql
+name_raw TEXT NOT NULL,              -- "KaszaPęczak4X100g        C"
+name_clean TEXT,                     -- "KaszaPęczak4X100g"
+quantity_numeric REAL,               -- 3.0 lub 0.74
+price INTEGER,                       -- cena jednostkowa (grosze)
+final_price INTEGER,                 -- po rabacie (grosze)
+is_storno BOOLEAN DEFAULT FALSE,     -- WAŻNE!
 ```
 
 ---
@@ -191,12 +282,55 @@ CREATE TABLE raw_products (
 | GET | `/api/export/xlsx` | Eksport Excel |
 | GET | `/api/export/csv` | Eksport CSV |
 | POST | `/api/waitlist` | Zapis na waitlistę |
+| GET | `/api/images/top-products` | **NOWE:** Obrazek top produkty |
+| GET | `/api/images/calendar` | **NOWE:** Obrazek kalendarz |
+| GET | `/api/images/savings` | **NOWE:** Obrazek oszczędności |
+| GET | `/api/images/favorite-time` | **NOWE:** Obrazek ulubiony czas |
 
 ---
 
-## 🔐 Deduplikacja plików
+## 🖼️ Generowanie obrazków (NOWE)
 
-### Algorytm:
+### Specyfikacja MVP
+
+| Parametr | Wartość |
+|----------|---------|
+| Format | PNG |
+| Wymiary | 1080 × 1080 px |
+| Biblioteka | Pillow |
+
+### Typy obrazków
+
+1. **Top 3 produkty** - najpopularniejsze produkty
+2. **Kalendarz** - dni z zakupami / heatmapa
+3. **Oszczędności** - suma i % oszczędności
+4. **Ulubiony czas** - dzień tygodnia + godzina
+
+### Przykład implementacji
+
+```python
+from PIL import Image, ImageDraw, ImageFont
+from io import BytesIO
+
+def generate_image(width=1080, height=1080, bg_color='#FFFFFF'):
+    """Create base image canvas."""
+    img = Image.new('RGB', (width, height), color=bg_color)
+    draw = ImageDraw.Draw(img)
+    return img, draw
+
+def save_to_bytes(img: Image) -> BytesIO:
+    """Save image to BytesIO for HTTP response."""
+    output = BytesIO()
+    img.save(output, format='PNG', quality=95)
+    output.seek(0)
+    return output
+```
+
+---
+
+## 🔐 Deduplikacja
+
+### Algorytm
 
 ```python
 import hashlib
@@ -205,19 +339,28 @@ def calculate_file_hash(content: bytes) -> str:
     """SHA256 hash pliku."""
     return hashlib.sha256(content).hexdigest()
 
-def is_duplicate(file_hash: str, db) -> bool:
-    """Sprawdź czy plik już był przetworzony."""
+def is_duplicate_file(file_hash: str, db) -> bool:
+    """Sprawdź file_hashes."""
     return db.execute(
         "SELECT 1 FROM file_hashes WHERE file_hash = ?", 
         (file_hash,)
     ).fetchone() is not None
+
+def is_duplicate_receipt(unique_number: str, db) -> bool:
+    """Sprawdź receipts.unique_number."""
+    return db.execute(
+        "SELECT 1 FROM receipts WHERE unique_number = ?", 
+        (unique_number,)
+    ).fetchone() is not None
 ```
 
-### Flow:
-1. Upload pliku → oblicz hash
-2. Sprawdź `file_hashes` → jeśli istnieje, pomiń
-3. Sprawdź `receipts.receipt_number` → jeśli istnieje, pomiń
-4. Przetwórz i zapisz hash + surowy plik
+### Flow uploadu
+
+1. Oblicz hash pliku → sprawdź `file_hashes`
+2. Jeśli nowy → parsuj JSON
+3. Wyciągnij `unique_number` → sprawdź `receipts`
+4. Jeśli nowy → zapisz paragon + pozycje
+5. Pomiń pozycje z `isStorno=true`
 
 ---
 
@@ -232,175 +375,96 @@ def is_duplicate(file_hash: str, db) -> bool:
 ### Przykład:
 
 ```python
-def save_to_waitlist(
-    email: str,
-    source: str = "dashboard",
-    db_conn: Connection | None = None
-) -> bool:
+def parse_receipt(
+    json_data: dict,
+    file_hash: str
+) -> tuple[Receipt, list[Item]]:
     """
-    Zapisz email na waitlistę.
+    Parse receipt JSON into database models.
     
     Args:
-        email: Adres email użytkownika
-        source: Źródło zapisu (dashboard, landing, etc.)
-        db_conn: Opcjonalne połączenie do DB
+        json_data: Raw JSON from e-paragon file
+        file_hash: SHA256 hash of source file
     
     Returns:
-        True jeśli zapisano, False jeśli email już istnieje
+        Tuple of (Receipt, list of Items)
         
     Raises:
-        ValueError: Jeśli email jest nieprawidłowy
+        ValueError: If required fields are missing
     """
     ...
 ```
 
-### Git commits:
+### Git commits
 ```
-feat(waitlist): add email subscription endpoint
-fix(export): handle empty receipts gracefully
-refactor(parser): extract normalization to separate function
-```
-
----
-
-## 📧 Komponenty UI
-
-### Email Form (bez przeładowania strony):
-
-```python
-# frontend/components/email_form.py
-import streamlit as st
-import requests
-
-def email_signup_form():
-    """Formularz email z async submit."""
-    
-    with st.container():
-        st.markdown("### 📧 Bądź na bieżąco!")
-        
-        col1, col2 = st.columns([3, 1])
-        
-        with col1:
-            email = st.text_input(
-                "Email",
-                placeholder="twoj@email.pl",
-                label_visibility="collapsed"
-            )
-        
-        with col2:
-            submitted = st.button("Zapisz się", type="primary")
-        
-        if submitted and email:
-            # Wywołanie API bez przeładowania
-            response = requests.post(
-                "http://localhost:8000/api/waitlist",
-                json={"email": email, "source": "dashboard"}
-            )
-            if response.status_code == 200:
-                st.success("✅ Zapisano! Powiadomimy Cię o nowościach.")
-            elif response.status_code == 409:
-                st.info("📬 Ten email jest już na liście.")
-            else:
-                st.error("❌ Coś poszło nie tak. Spróbuj ponownie.")
-```
-
-### BuyCoffee Widget:
-
-```python
-# frontend/components/buycoffee.py
-import streamlit as st
-
-BUYCOFFEE_URL = "https://buycoffee.to/[TWOJ_PROFIL]"
-
-def buycoffee_widget():
-    """Widget do wsparcia projektu."""
-    
-    st.markdown("---")
-    
-    with st.container():
-        st.markdown("""
-        ### ☕ Podoba Ci się ParagonStats?
-        
-        Jeśli aplikacja była dla Ciebie przydatna, możesz wesprzeć jej rozwój!
-        """)
-        
-        st.link_button(
-            "☕ Postaw kawę na BuyCoffee.to",
-            BUYCOFFEE_URL,
-            type="secondary"
-        )
-        
-        st.caption("Twoje wsparcie pomoże rozwijać nowe funkcje!")
+feat(parser): add support for discountLine
+fix(upload): handle isStorno items correctly
+refactor(images): extract common drawing functions
+docs: update PRD with verified JSON structure
 ```
 
 ---
 
-## 📤 Eksport danych
+## ⚠️ Ważne uwagi implementacyjne
 
-### Excel (.xlsx):
-
+### 1. Grosze → PLN
 ```python
-# backend/services/exporter.py
-from openpyxl import Workbook
-from io import BytesIO
+def grosze_to_pln(grosze: int) -> float:
+    """Convert grosze to PLN."""
+    return grosze / 100
 
-def export_to_xlsx(receipts: list[dict]) -> BytesIO:
-    """Eksportuj paragony do Excel."""
-    
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "Paragony"
-    
-    # Nagłówki
-    headers = ["Data", "Godzina", "Produkt", "Ilość", "Cena", "Rabat", "Suma"]
-    ws.append(headers)
-    
-    # Dane
-    for receipt in receipts:
-        for item in receipt["items"]:
-            ws.append([
-                receipt["date"],
-                receipt["time"],
-                item["name"],
-                item["quantity"],
-                item["price_per_unit"],
-                item["discount"],
-                item["final_price"]
-            ])
-    
-    # Zapisz do BytesIO
-    output = BytesIO()
-    wb.save(output)
-    output.seek(0)
-    return output
+# 15217 -> 152.17
 ```
 
----
+### 2. Obsługa isStorno
+```python
+for item in body:
+    if 'sellLine' in item:
+        if item['sellLine'].get('isStorno', False):
+            continue  # POMIŃ stornowane pozycje!
+        # ... process item
+```
 
-## ⚠️ Ważne decyzje
+### 3. Łączenie sellLine + discountLine
+```python
+current_item = None
+for item in body:
+    if 'sellLine' in item:
+        # Zapisz poprzedni item (jeśli był)
+        if current_item:
+            items.append(current_item)
+        current_item = parse_sell_line(item['sellLine'])
+    elif 'discountLine' in item and current_item:
+        # Dodaj rabat do bieżącego itemu
+        current_item.discount_value = item['discountLine']['value']
+        current_item.final_price = current_item.total - current_item.discount_value
+```
 
-1. **MVP bez autentykacji** - dane w session, prostsze testowanie
-2. **Deduplikacja hash-based** - SHA256 całego pliku + receipt_number
-3. **Storage surowych plików** - lokalny filesystem, później S3/R2
-4. **Waitlista w SQLite** - wystarczy dla MVP
-5. **Eksport bez limitów** - MVP nie wymaga płatności
+### 4. Czyszczenie nazwy produktu
+```python
+def clean_product_name(name_raw: str) -> str:
+    """Remove VAT letter and extra spaces from product name."""
+    # "KaszaPęczak4X100g        C" -> "KaszaPęczak4X100g"
+    return name_raw.rstrip(' ABCDEFG').strip()
+```
 
 ---
 
 ## 🚫 Czego NIE robić
 
 - ❌ Autentykacja w MVP
-- ❌ Płatności za eksport (na razie)
+- ❌ Płatności za eksport
 - ❌ Inne sieci niż Biedronka
 - ❌ Scraping paragonów
 - ❌ Kategoryzacja AI (post-MVP)
+- ❌ Ekstrakcja gramatur z nazw (post-MVP)
 
 ---
 
 ## 💡 Wskazówki dla Claude Code
 
 ### Dla ADHD-friendly development:
-1. **Jeden task na raz** - nie mieszaj featury
+1. **Jeden task na raz** - nie mieszaj feature'ów
 2. **Natychmiastowy feedback** - zawsze uruchom i przetestuj
 3. **Małe commity** - łatwiej wrócić do działającego stanu
 4. **Wizualne rezultaty** - priorytetyzuj UI nad perfekcyjny backend
@@ -414,3 +478,54 @@ def export_to_xlsx(receipts: list[dict]) -> BytesIO:
 1. Sprawdź logi
 2. Dodaj print/logging
 3. Izoluj problem do najmniejszego fragmentu
+
+---
+
+## 🧪 Testowanie parserów
+
+### Przykładowe dane testowe
+
+```python
+SAMPLE_SELL_LINE = {
+    "name": "Banan Luz                C",
+    "vatId": "C",
+    "price": 699,      # 6.99 PLN/kg
+    "total": 517,      # 5.17 PLN
+    "quantity": "0,740",  # 0.74 kg
+    "isStorno": False
+}
+
+SAMPLE_DISCOUNT_LINE = {
+    "base": 517,
+    "value": 148,      # 1.48 PLN rabatu
+    "isDiscount": True,
+    "isPercent": False,
+    "vatId": "C"
+}
+
+# Po rabacie: 517 - 148 = 369 groszy = 3.69 PLN
+```
+
+---
+
+## 📞 Pomocne komendy
+
+```bash
+# Uruchom backend
+uvicorn backend.main:app --reload --port 8000
+
+# Uruchom frontend
+streamlit run frontend/app.py
+
+# Testy
+pytest backend/tests/ -v
+
+# Formatowanie
+black . && isort .
+
+# Sprawdź typy
+mypy backend/
+
+# Lint
+ruff check .
+```
