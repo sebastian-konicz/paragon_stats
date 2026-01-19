@@ -1,0 +1,93 @@
+Stwórz backend/services/parser.py - parser e-paragonów Biedronka.
+
+STRUKTURA JSON PARAGONU (prawdziwe dane):
+
+{
+    "header": [
+        {"image": {...}},  // pomijamy
+        {"headerText": {...}},  // pomijamy
+        {"headerData": {"tin": "7791011327", "docNumber": 172202, "date": "2026-01-17T15:08:58.000Z", "CPS": 56}}
+    ],
+    "body": [
+        {"sellLine": {"name": "KaszaPęczak4X100g        C", "vatId": "C", "price": 189, "total": 567, "quantity": "3", "isStorno": false}},
+        {"discountLine": {"base": 567, "value": 189, "isDiscount": true, "isPercent": false, "vatId": "C"}},
+        {"sellLine": {"name": "Banan Luz                C", "vatId": "C", "price": 699, "total": 517, "quantity": "0,740", "isStorno": false}},
+        {"discountVat": {"name": "Voucher", "base": 8650, "value": 533, "isDiscount": true, "vatId": "A"}},
+        {"pack": {"name": "But Plastik kaucja", "price": 50, "quantity": "7", "total": 350}},
+        {"payment": {"type": "2", "amount": 15567, "name": "DEBIT MASTERCARD 07 1", "currency": "PLN"}},
+        {"fiscalFooter": {"billNumber": 137, "uniqueNumber": "EAZ2202168920", "cashNumber": "Kasa 11", "cashier": "Kasjer nr 33", "date": "2026-01-17T15:08:59.000Z"}}
+    ]
+}
+
+WAŻNE REGUŁY:
+1. Ceny w GROSZACH (189 = 1.89 PLN) - konwertuj na PLN dzieląc przez 100
+2. quantity to STRING z przecinkiem ("0,740") - zamień na float
+3. body to lista - każdy element ma JEDEN klucz (sellLine LUB discountLine LUB payment itd.)
+4. discountLine ZAWSZE następuje po sellLine którego dotyczy
+5. discountVat to rabat na całą kategorię VAT (np. Voucher)
+6. Nazwy produktów mają ~25 znaków, końcówka to litera VAT (A/B/C)
+
+FUNKCJE DO STWORZENIA:
+
+1. normalize_product_name(name: str) -> str
+   - Usuń trailing whitespace i literę VAT na końcu (np. "        C")
+   - Rozdziel sklejone słowa: "KaszaPęczak4X100g" -> "Kasza Pęczak 4X100g"
+   - Regex: wstaw spację przed wielką literą jeśli poprzedza ją mała
+   - Wynik: czytelna nazwa produktu
+
+2. extract_header_data(header: list) -> HeaderDataInput
+   - Znajdź element z kluczem "headerData" w liście header
+   - Zwróć HeaderDataInput
+
+3. parse_body_items(body: list) -> tuple[list[ReceiptItem], list[Pack], Payment, FiscalFooter, int]
+   - Iteruj po body
+   - Dla sellLine: stwórz ReceiptItem (konwertuj grosze na PLN)
+   - Dla discountLine: zaktualizuj POPRZEDNI ReceiptItem (dodaj discount, przelicz final_price)
+   - Dla discountVat: zapamiętaj (można pominąć w MVP lub dodać do sumy rabatów)
+   - Dla pack: zbierz do listy opakowań
+   - Dla payment: zapisz
+   - Dla fiscalFooter: zapisz
+   - Zwróć: (items, packs, payment, footer, total_discount)
+
+4. parse_receipt_json(json_data: dict) -> Receipt
+   - Wywołaj extract_header_data i parse_body_items
+   - Stwórz obiekt Receipt z wszystkimi danymi
+   - Parsuj datę z ISO format na datetime
+
+5. parse_receipt_file(file_content: bytes) -> Receipt
+   - json.loads(file_content)
+   - Wywołaj parse_receipt_json
+   - Obsłuż JSONDecodeError
+
+6. parse_multiple_files(files: list[tuple[str, bytes]]) -> tuple[list[Receipt], list[str]]
+   - files to lista (filename, content)
+   - Dla każdego pliku próbuj parse_receipt_file
+   - Zwróć (udane_paragony, lista_błędów)
+   - Format błędu: "filename.json: opis błędu"
+
+IMPORTY:
+from backend.models.receipt import (
+    Receipt, ReceiptItem, HeaderDataInput, 
+    SellLineInput, DiscountLineInput, PaymentInput, FiscalFooterInput
+)
+
+Dodaj:
+- logging (logger = logging.getLogger(__name__))
+- Docstringi po polsku
+- Obsługę KeyError, ValueError z sensownymi komunikatami
+
+TEST NA KOŃCU PLIKU:
+if __name__ == "__main__":
+    test_json = {
+        "header": [
+            {"headerData": {"tin": "7791011327", "docNumber": 123, "date": "2026-01-17T15:08:58.000Z", "CPS": 56}}
+        ],
+        "body": [
+            {"sellLine": {"name": "TestProdukt          A", "vatId": "A", "price": 999, "total": 999, "quantity": "1", "isStorno": False}},
+            {"fiscalFooter": {"billNumber": 1, "uniqueNumber": "TEST123", "cashNumber": "Kasa 1", "cashier": "Test", "CPS": 56, "date": "2026-01-17T15:08:59.000Z"}},
+            {"payment": {"type": "2", "amount": 999, "name": "CASH", "currency": "PLN"}}
+        ]
+    }
+    receipt = parse_receipt_json(test_json)
+    print(f"Paragon: {receipt.receipt_number}, produktów: {len(receipt.items)}, suma: {receipt.total_after_discount} PLN")
+    print("Parser OK!")
